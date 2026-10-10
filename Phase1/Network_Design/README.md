@@ -2,7 +2,7 @@ Network Design and Configuration
 ---
 ## Goal: Design Lighthouse Stores Network from scratch
 
-![Project Screenshot](../images/1751518866513.jpeg)
+![Project Screenshot](../../images/1751518866513.jpeg)
 
 The store was divided into three departments (Subsequently tweaked going forward):
 * Management
@@ -27,27 +27,27 @@ Configuration process
 1. Configured VLANs and SVI interfaces on the multilayer switch and enabled IP routing
 
 ## Main Switch - Router on a stick VLAN configuration
- ![Project Screenshot](../images/Screenshot2026-04-29174431.png)
+ ![Project Screenshot](../../images/Screenshot2026-04-29174431.png)
 
 ## Main Router - SVI configurations and 802.1Q VLAN trunking configurations
-  ![Project Screenshot](../images/Screenshot2026-04-29.png)
+  ![Project Screenshot](../../images/Screenshot2026-04-29.png)
 ---
  
 
 2. Created the same VLANs on the access switches to support VLAN trunking
 
 ## Access Switch - VLAN configurations
-  ![Project Screenshot](../images/vlanconfigonaccessswitch.png)
+  ![Project Screenshot](../../images/vlanconfigonaccessswitch.png)
 --- 
 3. Set access ports for end devices and trunk ports between switches and LAPs to carry VLANs 10, 20, and 30.
 4. Configured trunk links to the LAPs and WLC, with VLAN 20 set as the native VLAN for management traffic
 ## Access Switch - Access ports set for end device connections, trunk ports for connections between switches and LAPs, and Native trunk ports fr WLC management
-  ![Project Screenshot](../images/2.png)
+  ![Project Screenshot](../../images/2.png)
 --- 
 
 5. Enabled DHCP on the multilayer switch and created pools for each VLAN, excluding static IPs reserved for management
 
-![Project Screenshot](../images/1751518866498.jpeg)
+![Project Screenshot](../../images/1751518866498.jpeg)
 
 With DHCP in place, both wired and wireless devices (including LAPs) successfully obtained IP addresses. Next, I configured the WLC.
 ---
@@ -58,14 +58,14 @@ With DHCP in place, both wired and wireless devices (including LAPs) successfull
 
 1. Assigned a static IP from VLAN 20 and accessed the WLC via a web browser
 
-![Project Screenshot](../images/1751518866535(1).jpeg)
+![Project Screenshot](../../images/1751518866535(1).jpeg)
 ---
 
 2. Created WLANs for management, office, and store departments
 3. Formed WLAN groups and linked them with their respective WLANs and LAPs
 4. Configured interfaces with VLAN IDs, names, and static IPs
 6. Mapped each WLAN to the corresponding interface
-![Project Screenshot](../images/1751518866535.jpeg)
+![Project Screenshot](../../images/1751518866535.jpeg)
 This allowed each LAP to broadcast the appropriate SSID to its assigned VLAN, and wireless devices received DHCP IPs based on their assigned VLAN pools.
 ---
 
