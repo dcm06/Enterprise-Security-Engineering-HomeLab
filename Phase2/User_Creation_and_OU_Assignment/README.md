@@ -1,28 +1,22 @@
-Phase 2 Part 2: USER CREATION AND OU ASSIGNMENT
+# Phase 2 Part 2: USER CREATION AND OU ASSIGNMENT
+<img width="975" height="530" alt="image" src="https://github.com/user-attachments/assets/f6dbead6-1359-4cc5-8f4b-d09c896dd4d5" />
+<img width="975" height="530" alt="image" src="https://github.com/user-attachments/assets/1769cd3f-f656-48f6-9db3-92d648d653f6" />
+<img width="713" height="765" alt="image" src="https://github.com/user-attachments/assets/b39b65b6-792e-4044-9770-ea046b33c669" />
+<img width="794" height="809" alt="image" src="https://github.com/user-attachments/assets/143030a6-0ff8-4ecd-815a-f4f27dba40a5" />
+<img width="794" height="809" alt="image" src="https://github.com/user-attachments/assets/72146e9c-8500-46c8-90ab-3738da73a8ef" />
 
- 
- 
- 
- 
-
-
-
- 
- 
-
--	User Group Mangement
- 
-Linked the GPO to the Computers OU
+---
+User Creation Script
+---
+<img width="975" height="684" alt="image" src="https://github.com/user-attachments/assets/80f64f45-ac7a-4813-b8e9-42cbc905c868" />
+<img width="975" height="516" alt="image" src="https://github.com/user-attachments/assets/9b09f6f9-3f00-4f7c-8f71-6f3ab6a076b4" />
 
 
+---
+## User Group Management
+<img width="975" height="564" alt="image" src="https://github.com/user-attachments/assets/75d28bf8-63bc-4abe-a94a-72177297fff5" />
 
-
-
-
-
- 
-
--	Enforce GPOs for baseline hardening
+--- 
 
 Added a Separate Admin Account for all Admins
 Web Admin Permissions for Sarah Scott
