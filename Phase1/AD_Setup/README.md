@@ -2,7 +2,7 @@
 
 #### Goal: Set-up Routing and Active Directory
 
-![Project Screenshot](../images/Phase1networkimage.png)
+![Project Screenshot](../../images/Phase1networkimage.png)
 
 In this one, the following VMs will be used
 -	Server 2025 Standard – Active Directory  Server and Domain Controller(192.168.1.10)
